@@ -1,0 +1,174 @@
+
+body{
+    font-family: Nunito sans;
+}
+
+.container-pc{
+    padding: 0 64px;
+}
+.nav-txt{
+    font-size: 24px;
+    color: black;
+}
+.hero1{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    padding-right: 80px;
+    
+}
+.hero3{
+    font-size: 18px;
+    padding-top: 32px;
+}
+
+
+/* header */
+.logo{
+    width: 200px;
+    height: auto;
+}
+.navbar{
+    background-color: #FFF7F1;
+    color: white;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* section1 */
+.section1{
+    color: #222;
+    background-color: #FFF7F1;
+}
+.hero_image{
+    width: 500px;
+    height: auto;
+}
+.sub_title{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 56px;
+}
+
+/* good demat account */
+.manag_head{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.demat-head{
+    padding-top: 80px;
+}
+.tra_cap{
+    padding: 32px 10px 0 0;
+}
+.details_vt{
+    padding-top: 24px;
+    font-size: 24px;
+    line-height: 2em;
+    letter-spacing: 0.4px;
+}
+.sec2_container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    padding: 32px;
+    border: 2px solid #222;
+    border-radius: 24px;
+}
+.sec2_container p{
+
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height:1.6em ;
+    letter-spacing: 0.2px;
+}
+.expert_icon{
+    width: 120px;
+    height: auto;
+}
+/* section2 */
+.sec2_div{
+    justify-content: space-between;
+}
+.sec2img{
+    width: 500px;
+    height: auto;
+}
+
+
+
+/* testimonial */
+.flex-container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px; 
+    margin-bottom: 40px;/* Adjust spacing between images as needed */
+    border: 1px solid red; /* Add red border around each image */
+  }
+  
+  .image-container:last-child {
+    margin-right: 0; /* Remove margin from last image to prevent overflow */
+  }
+  
+  .image-container img {
+    width: 100%; /* Ensure images fill the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+/* help */
+/* sec_ques */
+.sec_ques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.help_btn{
+    background:#E78895;
+    color: white;
+    font-size: 32px;
+    padding: 14px 48px;
+    font-weight: 600;
+}
+
+
+/* disclaimer */
+.disclaimer{
+    border: 6px dotted #E78895;
+    border-radius: 24px;
+    padding: 48px!important;
+    margin-bottom: 64px!important;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+/* copyright */
+.copyright{
+    padding: 20px;
+}
+.copyright p{
+    font-size: 20px;
+}
