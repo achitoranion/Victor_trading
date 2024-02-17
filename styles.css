@@ -98,6 +98,7 @@ body {
 .ser_mob {
   display: flex;
   flex-direction: row;
+   column-gap: 20px;
 }
 
 /* -------------------------------------- */
@@ -137,6 +138,7 @@ body {
 }
 .demat-head {
   padding-top: 80px;
+   column-gap: 20px;
 }
 
 .sec2_container {
