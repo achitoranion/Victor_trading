@@ -1,0 +1,357 @@
+body {
+  font-family: Nunito sans;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.bas_styl {
+  max-width: 1400px;
+  margin: 0 16px;
+  padding: 120px 0px;
+}
+/* header */
+@media only screen and (min-width: 600px) {
+  .nav_cont {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+.ms-auto {
+  padding: 29px 20px;
+}
+.navbar {
+  background-color: #222;
+  color: white;
+}
+
+/* menu text */
+.nav-txt {
+  font-size: 24px;
+  color: white;
+}
+.mob_menu {
+  display: flex;
+  gap: 30px;
+}
+
+/* Hero Section */
+.Hero_sec {
+  color: #222;
+  background-color: #fff7f1;
+  overflow-x: hidden;
+}
+.hero_div {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.hero_col1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  padding-right: 80px;
+}
+
+.hero_col1_h2 {
+  font-size: 60px;
+}
+.hero_col1_p1 {
+  font-size: 18px;
+  padding-top: 32px;
+}
+.hero_col1_p2 {
+  font-size: 18px;
+  padding-top: 32px;
+}
+.hero_btn {
+  width: 40%;
+  background-color: #e78895;
+  color: white;
+  padding: 16px 32px;
+}
+.hero_image {
+  width: 500px;
+  height: auto;
+}
+.sub_title {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 56px;
+}
+
+/* -------------------------------------- */
+
+/* our services */
+.ser_mob {
+  display: flex;
+  flex-direction: row;
+}
+
+/* -------------------------------------- */
+
+/* Trading Capital section */
+.sec2_div {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec2img {
+  width: 500px;
+  height: auto;
+}
+.tra_cap {
+  padding: 32px 10px 0 0;
+}
+.manag_head_trade {
+  letter-spacing: 0.1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* -------------------------------------- */
+
+/* good demat account */
+.manag_head {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.demat-head {
+  padding-top: 80px;
+}
+
+.sec2_container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border: 2px solid #222;
+  border-radius: 24px;
+}
+.sec2_container p {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0.2px;
+}
+.expert_icon {
+  width: 120px;
+  height: auto;
+}
+
+/* -------------------------------------- */
+
+/* testimonial */
+.flex-container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 40px; /* Adjust spacing between images as needed */
+  border: 1px solid red; /* Add red border around each image */
+}
+
+.image-container:last-child {
+  margin-right: 0; /* Remove margin from last image to prevent overflow */
+}
+
+.image-container img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* -------------------------------------- */
+
+/* help */
+/* sec_ques */
+.sec_ques {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.help_btn {
+  background: #e78895;
+  color: white;
+  font-size: 32px;
+  padding: 14px 48px;
+  font-weight: 600;
+}
+
+/* -------------------------------------- */
+
+/* disclaimer */
+.disclaimer {
+  border: 6px dotted #e78895;
+  border-radius: 24px;
+  padding: 48px;
+  margin: 0 auto 80px;
+}
+.details_vt {
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 2em;
+  letter-spacing: 0.4px;
+}
+
+/* ------------------------------------ */
+/* footer */
+.footer_div {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 80px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* copyright */
+.copyright {
+  padding: 20px;
+}
+.copyright p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .manag_head {
+    font-size: 36px;
+  }
+  .sub_title {
+    font-size: 18px;
+  }
+
+  /* header */
+  .mob_menu {
+    flex-direction: column;
+  }
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-left: 14px;
+    margin-right: 220px;
+  }
+  /* hero section */
+  .hero_div {
+    flex-direction: column;
+  }
+  .hero_col1_h2 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0.1em;
+  }
+  .hero_p {
+    text-align: justify;
+  }
+  .hero_col1 {
+    padding: 20px;
+    margin-bottom: 48px;
+  }
+  .hero_btn {
+    width: 100%;
+  }
+  .hero_image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* services section */
+  .ser_mob {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+  }
+
+  /* features trading capital  */
+  .sec2_div {
+    flex-direction: column;
+    margin: 0 16px;
+    overflow-x: hidden;
+  }
+  .manag_head_trade {
+    text-align: center;
+    font-size: 40px;
+  }
+  .tra_cap {
+    padding-bottom: 40px;
+  }
+
+  /* good demat looks */
+  .demat_acc_looks_pdiv {
+    margin: 0 16px;
+  }
+  .manag_head_demat_look {
+    font-size: 38px;
+  }
+  .demat-head {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  /* Testimonial style="font-size: 24px" profit */
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    margin: 0px 12px;
+    padding: 12px 8px;
+  }
+  .sec2img {
+    width: 100%;
+    height: auto;
+  }
+  .sec2_container {
+    padding: 16px;
+  }
+  /* disclaimer */
+  .dis_head {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .disclaimer {
+    padding: 22px 6px;
+    margin: 0 24px 50px;
+  }
+  .details_vt {
+    padding-top: 24px;
+    font-size: 20px;
+  }
+  /* footer */
+  .footer_div {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  .footer_h2 {
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+  .footer_p {
+    font-size: 18px;
+  }
+}
