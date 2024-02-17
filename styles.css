@@ -5,9 +5,10 @@ body {
 
 .bas_styl {
   max-width: 1400px;
-  margin: 0 16px;
+  margin: 0 auto;
   padding: 120px 0px;
 }
+
 /* header */
 @media only screen and (min-width: 600px) {
   .nav_cont {
@@ -241,6 +242,11 @@ body {
   .sub_title {
     font-size: 18px;
   }
+  .bas_styl {
+  max-width: 1400px;
+  margin: 0 16px;
+  padding: 120px 0px;
+}
 
   /* header */
   .mob_menu {
