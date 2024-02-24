@@ -4,12 +4,21 @@ body {
 }
 
 .bas_styl {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 120px 0px;
 }
 .vt2{
   color: white;
+    }
+    .details_vt li::before{
+      content: "\1F449"; /* Unicode for the desired emoji */
+      display: inline-block;
+      width: 1em; /* Adjust spacing as needed */
+      margin-right: 0.5em; /* Adjust spacing as needed */
+    }
+    .nav_cont {
+      max-width: 1200px!important;
     }
 /* header */
 @media only screen and (min-width: 600px) {
@@ -52,7 +61,7 @@ body {
   overflow-x: hidden;
 }
 .hero_div {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -107,7 +116,7 @@ body {
 
 /* Trading Capital section */
 .sec2_div {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 80px 0px;
   display: flex;
@@ -216,6 +225,7 @@ body {
   margin: 0 auto 80px;
 }
 .details_vt {
+  list-style-type: none;
   padding-top: 24px;
   font-size: 24px;
   line-height: 2em;
@@ -264,6 +274,7 @@ body {
   }
   /* hero section */
   .hero_div {
+ 
     flex-direction: column;
   }
   .hero_col1_h2 {
@@ -354,6 +365,7 @@ body {
     font-size: 18px;
     text-align: justify;
   }
+
 
   /* footer */
   .footer_div {
